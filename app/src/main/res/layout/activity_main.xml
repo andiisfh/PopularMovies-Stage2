@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.popularmovies.ui.activity.MainActivity">
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/spin_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/category_arr"
+        android:padding="10dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_movie_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:visibility="gone" />
+
+</LinearLayout>

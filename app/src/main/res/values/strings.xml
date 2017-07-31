@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <!-- General -->
+    <string name="request_failed">Request Failed</string>
+    <string name="rto">Request Time Out</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="loading_please_wait">Loading. Please wait.</string>
+
+    <!-- Main -->
+    <string name="image_poster">Image Poster</string>
+    <string-array name="category_arr">
+        <item>Popular</item>
+        <item>Top Rated</item>
+        <item>Favorite</item>
+    </string-array>
+
+    <!-- Detail -->
+    <string name="image_thumbnail">Image Thumbnail</string>
+    <string name="movie_detail">Movie Detail</string>
+    <string name="of_ten">%1$s/10</string>
+    <string name="mark_as_favorite">Mark As Favorite</string>
+    <string name="remove_from_favorite">Remove From Favorite</string>
+    <string name="image_youtube_thumbnail">Image Youtube Thumbnail</string>
+    <string name="trailers">Trailers</string>
+    <string name="reviews">Reviews</string>
+    <string name="add_to_favorite_desc">Movies has been add to favorite</string>
+    <string name="remove_from_favorite_desc">Movies has been remove from favorite</string>
+</resources>
